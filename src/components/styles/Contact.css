@@ -1,0 +1,77 @@
+/* 📞 Contact Section */
+.contact-section {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0dcaf0;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: fadeInDown 0.6s ease;
+}
+
+/* 🎯 Icons Container */
+.contact-icons {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation: fadeInUp 0.8s ease;
+}
+
+/* 🎨 Icon Styles */
+.contact-icon {
+  font-size: 2.5rem;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.2);
+  color: #0dcaf0;
+}
+
+/* 🎞 Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-icon {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,54 @@
+body {
+  background: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+
+.global-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  /* Behind everything */
+}
+
+/* 📝 Page container styling */
+.page-container {
+  position: relative;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  /* White text so it's readable on dark bg */
+}
+
+/* Optional: Smooth fade-in effect for every page */
+.page-container>* {
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

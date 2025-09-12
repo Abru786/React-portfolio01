@@ -1,0 +1,115 @@
+/* 🌌 Background with gradient animation */
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-60deg, #1f1c2c, #03222c, #1c0337, #430202);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+  padding: 2rem;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 📦 Layout Container */
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 100%;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* 📝 Left Side - Text */
+.home-text {
+  flex: 1;
+  color: white;
+}
+
+.home-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.home-title span {
+  color: #0dcaf0;
+  /* Highlighted name */
+}
+
+.home-subtitle {
+  font-size: 1.8rem;
+  color: #f8f9fa;
+  margin-top: 0.5rem;
+}
+
+.home-desc {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+/* 🎯 Button Styling */
+.home-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 10px 20px;
+  background-color: #0dcaf0;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-btn:hover {
+  background-color: #0bb3d9;
+  transform: scale(1.05);
+}
+
+/* 🖼 Right Side - Image */
+.home-image img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .home-image img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+  }
+
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-subtitle {
+    font-size: 1.4rem;
+  }
+}

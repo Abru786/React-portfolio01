@@ -1,0 +1,126 @@
+/* 🌌 Navbar background and shadow
+.navbar {
+  background: rgba(0, 0, 0, 0.85) !important;
+  backdrop-filter: blur(8px);
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.navbar-brand {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ffffff !important;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #0dcaf0 !important;
+ 
+}
+
+
+.nav-link {
+  color: #ffffff !important;
+  font-size: 1rem;
+  margin: 0 0.4rem;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0dcaf0 !important;
+  transform: scale(1.05);
+}
+
+
+.navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+
+.nav-link.active {
+  color: #0dcaf0 !important;
+  font-weight: bold;
+  border-bottom: 2px solid #0dcaf0;
+}
+
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .nav-link {
+    display: inline-block;
+    padding: 0.6rem 0;
+  }
+} */
+
+/* 🌟 Navbar Styling */
+.custom-navbar {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  padding: 0.6rem 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: background 0.3s ease-in-out;
+}
+
+.custom-navbar:hover {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/* 🏷 Brand Name */
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff !important;
+  letter-spacing: 1px;
+}
+
+.brand-name span {
+  color: #0dcaf0;
+  /* highlight color matching homepage */
+}
+
+/* 🔗 Nav Links */
+.nav-link-custom {
+  color: #ffffff !important;
+  font-weight: 500;
+  margin: 0 8px;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link-custom:hover {
+  color: #0dcaf0 !important;
+}
+
+.nav-link-custom::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #0dcaf0;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .nav-link-custom {
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+  }
+}
