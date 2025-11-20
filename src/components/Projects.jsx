@@ -8,14 +8,14 @@ function Projects() {
     {
       title: "Portfolio Website",
       desc: "A personal portfolio built using React & Bootstrap with animated background and responsive design.",
-      img: "/images/Portfolio.png", // Put this image inside public/images folder
-      link: "https://your-portfolio-link.com",
+      img: "/images/Portfolio.png", 
+      link: "https://abru-web.netlify.app/",
     },
     {
       title: "Student Management System",
       desc: "A full-stack project using Spring Boot (Backend) + React (Frontend) with CRUD operations.",
-      img: "/images/Full Stack App.png", // Put this image inside public/images folder
-      link: "https://your-student-app-demo.com",
+      img: "/images/Full Stack App.png",
+      link: "*",
     },
   ];
 

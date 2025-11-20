@@ -21,7 +21,7 @@ function Education() {
       <h2 className="education-title">Education & Skills</h2>
 
       <div className="education-container">
-        {/* 🎓 Education Card */}
+        
         <div className="education-card">
           <h3>Bachelor of Computer Applications (BCA)</h3><p>Grade:- A</p>
           <p>
@@ -29,7 +29,6 @@ function Education() {
           </p>
         </div>
 
-        {/* 💻 Skills Card */}
         <div className="skills-card">
           <h3>My Full Stack Skills</h3>
           <div className="skills-grid">

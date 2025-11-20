@@ -6,7 +6,7 @@ function Home() {
   return (
     <section className="home-section">
       <div className="home-container">
-        {/* Left Side - Text Intro */}
+       
         <div className="home-text">
           <h1 className="home-title">Hi, I'm <span>ABRARUDDIN</span> 👋</h1>
           <h2 className="home-subtitle">Full Stack Java Developer</h2>
@@ -16,15 +16,9 @@ function Home() {
             <strong> React</strong>. I love solving problems and learning
             new technologies to grow as a developer.
           </p>
-          <a
-            href="/projects"
-            className="home-btn"
-          >
-            View My Work 🚀
-          </a>
+          
         </div>
 
-        {/* Right Side - Image */}
         <div className="home-image">
           <img src={profilePic} alt="My Profile" />
         </div>

@@ -1,4 +1,4 @@
-/* 🏗 Container Styling */
+/*  Container Styling */
 .about-section {
   display: flex;
   justify-content: center;
@@ -10,17 +10,17 @@
 .about-container {
   max-width: 700px;
   background: rgba(255, 255, 255, 0.05);
-  /* Light transparent box */
+
   padding: 2rem;
   border-radius: 20px;
   text-align: center;
   backdrop-filter: blur(8px);
-  /* Frosted glass effect */
+
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   animation: fadeInUp 0.8s ease;
 }
 
-/* 🏷 Title Styling */
+/*  Title Styling */
 .about-title {
   font-size: 2rem;
   font-weight: bold;
@@ -29,14 +29,14 @@
   /* Bootstrap cyan */
 }
 
-/* 📝 Text Styling */
+/*  Text Styling */
 .about-text {
   font-size: 1.1rem;
   line-height: 1.6;
   color: #ffffff;
 }
 
-/* ✨ Animation */
+/*  Animation */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -49,7 +49,7 @@
   }
 }
 
-/* 📱 Responsive Design */
+/*  Responsive Design */
 @media (max-width: 768px) {
   .about-container {
     padding: 1.5rem;

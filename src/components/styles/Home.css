@@ -1,4 +1,4 @@
-/* 🌌 Background with gradient animation */
+/*  Background with gradient animation */
 .home-section {
   min-height: 100vh;
   display: flex;
@@ -24,7 +24,7 @@
   }
 }
 
-/* 📦 Layout Container */
+/*  Layout Container */
 .home-container {
   display: flex;
   align-items: center;
@@ -35,7 +35,7 @@
   flex-wrap: wrap;
 }
 
-/* 📝 Left Side - Text */
+/*  Left Side - Text */
 .home-text {
   flex: 1;
   color: white;
@@ -64,7 +64,7 @@
   max-width: 500px;
 }
 
-/* 🎯 Button Styling */
+/*  Button Styling */
 .home-btn {
   display: inline-block;
   margin-top: 1.5rem;
@@ -82,7 +82,7 @@
   transform: scale(1.05);
 }
 
-/* 🖼 Right Side - Image */
+/*  Right Side - Image */
 .home-image img {
   width: 280px;
   height: 280px;
@@ -92,7 +92,7 @@
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* 📱 Responsive */
+/*  Responsive */
 @media (max-width: 768px) {
   .home-container {
     flex-direction: column-reverse;

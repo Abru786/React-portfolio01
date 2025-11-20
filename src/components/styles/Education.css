@@ -1,4 +1,4 @@
-/* 🎓 Section Styling */
+/*  Section Styling */
 .education-section {
   min-height: 70vh;
   text-align: center;
@@ -12,7 +12,7 @@
   color: #0dcaf0;
 }
 
-/* 🏗 Container for Education + Skills */
+/*  Container for Education + Skills */
 .education-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -21,7 +21,7 @@
   margin: 0 auto;
 }
 
-/* 🎓 Education Card */
+/*  Education Card */
 .education-card,
 .skills-card {
   background: rgba(255, 255, 255, 0.05);
@@ -44,7 +44,7 @@
   line-height: 1.6;
 }
 
-/* 💻 Skills Grid */
+/*  Skills Grid */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -69,7 +69,7 @@
   transform: scale(1.05);
 }
 
-/* 🎞 Animation */
+/*  Animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -82,7 +82,7 @@
   }
 }
 
-/* 📱 Responsive Design */
+/*  Responsive Design */
 @media (max-width: 768px) {
   .education-container {
     grid-template-columns: 1fr;
